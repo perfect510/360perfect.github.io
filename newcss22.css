@@ -1,0 +1,179 @@
+.container{
+    background-image: url("images1/99.jpg");
+    background-repeat:no-repeat;
+  background-size: cover;
+   background-position:center center;
+   margin: 0;
+   padding: 0;
+}
+.logo_container{
+    margin: 0 auto;
+     border-bottom: 2px solid yellow;
+}
+nav{
+    height: 200px;
+
+}
+.logo{
+    padding:0 0 0 80px;
+    width: 340px;
+    height: 200px;
+}
+ nav  ul{
+    padding: 0;
+    margin: 0;
+    float:right;
+    margin-right: 280px;
+    margin-top: 140px;
+  
+}
+nav ul li{
+    position: relative ;
+    list-style: none;
+    display: inline-block;
+   
+    
+}
+nav ul li a{
+    display: block ;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 170%;
+    
+}
+nav ul li a:hover{
+    background-color: goldenrod;
+  
+}
+
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+nav ul li:hover>ul{
+    display: block;
+  
+    
+}
+nav ul ul li {
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+    bottom: 140px;
+}
+
+.Form{
+    align-content: center;
+    text-align: left;
+    
+    color:white;
+   text-justify: auto;
+   font-family: sans-serif;
+   border: 10px solid gold;
+ background-color: black;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 130px;
+   
+   
+    
+}
+.form11{
+    border-radius: 50px;
+    border:8px solid white;
+    margin-left: 200px;
+    margin-top:100px;
+    margin-right: 200px;
+    margin-bottom:100px;
+    font-style: normal;
+    font-size:  x-large;
+    text-align: center;
+  background-image: url(images/99.jpg);
+  background-position: center;
+   background-position: top;
+    
+   
+    background-repeat: no-repeat;
+ 
+    
+    
+    
+}
+
+.form1{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+}
+.form1 input[type=text]{
+    background-color: beige;
+}
+
+.sub232{
+    width:200px;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: x-large;
+    border: 4px solid gold;
+    border-radius: 50px;
+}
+.sub232:hover{
+    background-color: orange;
+}
+
+.Form h1{
+    text-align: center;
+    text-justify: auto;
+}
+
+
+
+.table1{
+    table-layout:fixed;
+    width:1500px;
+   word-break: normal;
+  text-align: center;
+  overflow-wrap: break-word;
+    margin-top: 130px;
+    border: 1px solid white;
+    
+    
+}
+
+
+.buttonn{
+    width: 90px;
+    height: 30px;
+}
+
+.table2{
+     table-layout:fixed;
+    width:1500px;
+     word-break: normal;
+  text-align: center;
+  overflow-wrap: break-word;
+    margin-top: 130px;
+}
+
+.rdmore:hover{
+    background-color: background;
+}
+.rdmore{
+    border:2px solid blue;
+   position: relative;
+    top: 100px;
+}
+.nob{
+    border: none;
+}
+
+
+
+
+

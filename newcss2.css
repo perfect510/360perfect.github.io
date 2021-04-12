@@ -1,0 +1,111 @@
+.registration{
+     
+     margin-bottom: 100px;
+     margin-left: 200px;
+     margin-right: 200px;
+     margin-top: 100px;
+     color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 400px;
+    border: 2px solid goldenrod;
+   background-image: url("images2/night.jpg");
+       background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  opacity:1.0;
+  
+   
+
+ }
+ 
+ .rege{
+     font-style: italic;
+     font-size: medium;
+     color: gold;
+     
+ }
+ .rege:hover{
+     background-color: highlight;
+ }
+ 
+ .lambo{
+     width: 35%;
+     height: 50%;
+     position: absolute;
+     right: 750px;
+     bottom: 170px;
+     
+ }
+ .home11:hover{
+     background-color: highlight;
+ }
+ .signin:hover{
+     background-color: highlight;
+     font-style: italic;
+}    
+  .signin1:hover {
+     background-color: highlight;
+     font-style: italic;
+     color: gold;
+         
+  }   
+    .signin2 {
+    position: relative;
+     left: 80px;
+     bottom: 38px;
+   }   
+    .signin2:hover{
+     background-color: highlight;
+     font-style: italic;
+    }
+ 
+ .registration11{
+     margin-bottom: 100px;
+     margin-left: 200px;
+     margin-right: 200px;
+     margin-top: 100px;
+     color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 400px;
+    border: 2px solid goldenrod;
+     background-color: black;
+     background-image: url("images2/night.jpg");
+       background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+ 
+    
+ }
+ 
+ .toy{
+    width: 35%;
+     height: 50%;
+     position: absolute;
+     right: 750px;
+     bottom: 200px;
+ }
+ 
+
+ 
+ .usern{
+     color: red;
+     font-weight: bold;
+ }
+ 
+  .emailu{
+     color: red;
+     font-weight: bold;
+ }
+ 
+ 
+  .passu{
+     color: red;
+     font-weight: bold;
+ }
+
+
+

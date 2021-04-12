@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>HOME</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="newcss22.css">
+        <link rel="stylesheet" type="text/css" href="newcss1.css">
+        <link rel="shortcut icon" type="image/jpeg" href="images1/icon.png">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+       </head>
+          <body class="container">
+              <button type="button" onclick="function()"><a href="logout" style="text-decoration: none; color: white; font-size: medium">Logout</a></button>
+           <div class="logo_container">
+               <nav>
+                   <img src="images1/logo.jpg" class="logo">
+                <ul>
+                     <li><a href="main1.html">Home</a></li>
+                   <li><a href="list of shops1.html">List of shops</a></li>
+                   <li><a href="buying.jsp">Buying</a></li>
+                   <li><a href="selling.html">Selling</a></li>
+                   <li><a href="#">Live customization</a>
+                       <ul>
+                           <li><a href="Interior.html">Interior</a></li>
+                             <li><a href="Exterior.html">Exterior</a></li>
+                         </ul>
+                   </li>
+                 </ul>
+               </nav>
+             </div>
+            <div class="configuration">
+                
+                <h1 class="shops">List of shops</h1>
+                <p class="para">Our website will provide a list of all genuine customization shops because of which, there is
+                 no need for the people to search for modification shops online. Any user that visits the website
+                  will get the complete information about the shops that is included and can also contact them
+                  directly.</p>
+                <img class="list" src="images/list of shops.jpg" alt="">
+             </div>
+            
+            <div class="config">
+                <h1 class="live">Live Customization</h1>
+                <p class="car">Our feature enables the user to customize their car based on the option that is been provided.
+                 This feature will give the user an idea of how their car will look after the customization is done
+                  as per the modification done by the user. Once the modification gets completed, the website
+                 will show the user all relevant shops based on the customization done by the user. We are also providing a 
+                section for Interior and Accessories where the customer/user can BOOK the items from the given list.  </p>
+                <img class="list1" src="images/live customization.jpg" alt="">
+           </div>
+         
+            <div class="config1">
+                <h1 class="buy">Buying and Selling</h1>
+                <p class="para2">Our feature enable the user to buy or sell their vehicle(*ONLY MODIFIED VEHICLE)
+                 through this website. The user have to provide with few information about their modification
+                 that they have done on their vehicle. The user can also look for modified vehicle (*For the
+                 people who wants to buy).</p>
+                <img src="images/buy and sell.jpg" class="list3" alt="">
+                
+                
+          
+        </div>
+              <script>
+              $().ready(function() {
+    if(document.referrer != 'http://localhost:8080/'){ 
+        history.pushState(null, null, 'index.html');
+        window.addEventListener('popstate', function () {
+            history.pushState(null, null, 'index.html');
+        });
+    }
+});
+           </script>
+        
+           
+       </body>
+     
+           
+            
+       
+</html>

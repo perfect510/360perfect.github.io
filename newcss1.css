@@ -1,0 +1,337 @@
+.Main{
+    height: 1%;
+    margin-top: 30px; 
+    border-bottom: 5px solid goldenrod;
+    
+}
+.img{
+    height: 180px;
+    width: 350px;
+    margin-top: 30px; 
+    margin-left: 90px;
+    
+}
+.about11{
+    
+    width:60px;
+   height:50px;
+   padding-left: 30px;
+position: relative;
+bottom: 20px;
+left: 60px;
+  
+}
+.about22{
+    
+    width:60px;
+   height:50px;
+position: relative;
+bottom: 20px;
+left: 80px;
+  
+}
+.about33{
+    
+    width:60px;
+   height:50px;
+position: relative;
+bottom: 20px;
+left: 80px;
+  
+}
+.about44{
+    
+    width:60px;
+   height:50px;
+position: relative;
+bottom: 20px;
+left: 90px;
+  
+}
+.about55{
+    
+    width:60px;
+   height:50px;
+position: relative;
+bottom: 20px;
+left: 70px;
+  
+}
+#main{
+    padding-left: 440px;
+   position: relative;
+   bottom: 120px;
+   
+   
+}
+.Home{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+    
+   }
+   
+.About{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+}
+
+.Contact{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+}
+
+.List7{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+}
+
+.Register{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+}
+
+
+
+  .ab{
+      
+      width: 700px;
+      height: 700px;
+      margin:0 auto;
+     
+  }
+  .p1{
+      color: white;
+      font-style: normal;
+      text-align: center;
+      padding-top: 45px;
+      margin: 0 auto;
+  }
+  .h1{
+       color: white;
+      font-style: normal;
+      text-align: center;
+      padding-top: 100px;
+      padding-right: 30px;
+      text-decoration: underline goldenrod;
+  }
+  
+
+@keyframes slider {
+
+0% {
+left: 0;
+}
+
+20% {
+left: 0;
+}
+
+25% {
+left: -100%;
+}
+
+45% {
+    left: -100%;
+
+}
+
+50% {
+left: -200%;
+
+}
+
+70% {
+left: -200%;
+}
+
+75% {
+left: -300%;
+}
+
+95% {
+left: -300%;
+}
+
+100% {
+left: -400%;
+
+}
+
+}
+
+.slider {
+        overflow: hidden;
+        margin:0 auto;
+         border: 5px solid darkgoldenrod;
+        width: 1200px;
+        height: 610px;
+}
+
+.slider figure img {
+    width: 20%;
+    float: left;
+    height: 610px;
+   
+   }
+
+.slider figure {
+        position: relative;
+        width: 500%;
+        margin: 0 auto;
+        animation: 20s slider infinite; 
+}
+
+.form{
+   color: white;
+      font-style: normal;
+      text-align: center;
+      padding-top: 45px;
+      margin: 0 auto;
+      border: 2px solid darkgoldenrod;
+      margin-left: 150px;
+      margin-right: 150px;
+      font-family: sans-serif;
+}
+
+.cont h1{
+       color: white;
+      font-style: normal;
+      text-align: center;
+      padding-top: 100px;
+      padding-right: 30px;
+      font-family: sans-serif;
+}
+.username{
+    background-color: appworkspace;
+    
+}
+.submit{
+    font-family: cursive;
+}
+.submit:hover{
+    background-color: graytext;
+}
+
+.configuration{
+    width:1000px;
+    height: 250px;
+    
+    margin-top: 150px;
+    margin-left: 250px;
+    padding: 0 auto;
+    
+    
+}
+.list{
+    width: 55%;
+    height:100%;
+   position: relative;
+   bottom:  280px;
+  
+    
+  
+   }
+.shops{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding-left: 600px;
+}
+
+.para{
+      color: white;
+    text-align: center;
+    font-size: x-large;
+    padding-left: 580px;
+}
+
+.live{
+      color: white;
+    text-align: center;
+    font-size: x-large;
+   
+    padding-right: 450px;
+    padding-top: 220px;
+}
+.car{
+       color: white;
+    text-align: center;
+    font-size: x-large;
+    padding-left: 180px;
+    padding-right: 580px;
+    
+}
+.list1{
+    width: 30%;
+    position: relative;
+    left:950px;
+    bottom: 330px;
+   
+}
+.buy{
+     color: white;
+    text-align: center;
+    font-size: x-large;
+    padding-left:  600px;
+   position: relative;
+   bottom: 160px;
+   
+    
+}
+.para2{
+     color: white;
+    text-align: center;
+    font-size: x-large;
+    padding-left: 580px;
+    margin-left: 200px;
+    padding-right: 180px;
+       position: relative;
+   bottom: 160px;
+}
+
+
+
+
+#about1{
+    
+    width:60px;
+   height:50px;
+   padding-left: 600px;
+   top: 500px;
+}
+
+.config1{
+    padding-top: 30px;
+    
+    
+}
+
+
+.list3{
+     width: 30%;
+   
+   position: relative;
+   bottom:  500px;
+  left: 140px; 
+}
+
+.config{
+    padding-top: 50px;
+}
+
+
+
+.Live{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;}
+    
+    .BS{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;}

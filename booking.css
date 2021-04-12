@@ -1,0 +1,172 @@
+.BODY{
+    background-image: url("images1/99.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    
+   
+}
+
+.header{
+    text-align: center;
+    font-size: xx-large;
+  font-weight: bold;
+  margin-top: 50px;
+  color: white;
+  border: 6px solid goldenrod;
+  border-radius: 100px;
+ margin-left: 400px;
+ margin-right: 400px;
+      
+  }
+  
+  .title{
+        text-align: center;
+    font-size: xx-large;
+  font-weight: bold;
+  margin-top: 50px;
+  color: white;
+  text-decoration: underline goldenrod;
+  
+  }
+.set1{
+  
+    width: 380px;
+    height: 400px;
+    color: white;
+    font-size: 100%;
+    
+}
+.set2{
+   
+    width: 380px;
+    height: 400px;
+    position: relative;
+    left: 400px;
+    bottom: 402px;
+    color: white;
+      font-size: 100%;
+     
+}
+.set3{
+     
+    width: 300px;
+    height: 400px;
+      position: relative;
+    left: 800px;
+    bottom: 804px;
+    color: white;
+      font-size: 100%;
+}
+.set4{
+width: 380px;
+    height: 400px;
+    float: right;
+    position: relative;
+    bottom: 1205px;
+    color: white;
+      font-size: 100%;
+    
+}
+
+.check1{
+    width: 40px;
+    height: 20px;
+}
+.check2{
+    width: 40px;
+    height: 20px;
+}
+.check3{
+    width: 40px;
+    height: 20px;
+}
+.check4{
+    width: 40px;
+    height: 20px;
+}
+
+.set11{
+    position: relative;
+    left: 40px;
+}
+
+.buttonn{
+    float: right;
+    position: relative;
+    right: 170px;
+    bottom: 100px;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    border: 2px solid goldenrod;
+    font-style: normal;
+    font-size: 100%;
+    
+}
+.buttonn:hover{
+    background-color: orange;
+}
+
+.buttonn1{
+        float: right;
+    position: relative;
+    left: 60px;
+    bottom: 100px;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    border: 2px solid goldenrod;
+    font-style: normal;
+font-size: 100%;
+    
+}
+.buttonn1:hover{
+    background-color: orange;
+}
+
+.details{
+    color: white;
+    position: relative;
+    bottom: 900px; 
+    left: 250px;
+  border: 3px solid goldenrod;
+    width: 980px;
+    height: 520px;
+}
+.detail1{
+    padding-left: 180px;
+    padding-top: 40px;
+}
+.h83{
+    font-size: x-large;
+}
+.h84{
+    width: 50%;
+   
+}
+.h833{
+      font-size: x-large;
+      position: relative;
+      bottom: 60px;
+}
+h844{
+    color: white;
+    
+}
+.submitt{
+  position: relative;
+  left: 250px;
+  top: 20px;
+  color: white;
+    background-color: black;
+    border: 2px solid goldenrod;
+    font-style: normal;
+    height: 30px;
+    
+}
+.submitt:hover{
+    background-color: orange;
+}
+

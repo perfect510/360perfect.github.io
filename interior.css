@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+    background-color: black;
+    font-family: Poppins;
+    text-align: center;
+}
+/* navbar */
+.navbar{
+    background-color: black !important;
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-link:active{
+  color:  rgb(241, 180, 158);
+}
+.card-img-top{
+    height: 250px;
+    width: 100%;
+}
+.btn{
+    background-color: black;
+    color: rgb(241, 180, 158);
+}
+.btn:hover{
+    background-color: yellow;
+    color: rgb(241, 180, 158);
+}
+.price{
+    position: absolute;
+    right: 0;
+    margin-right: 1rem;
+}
+.modal-body{
+    width:100%;
+}
+
+.h8{
+    float: left;
+}
+.h81{
+    text-align:  center; 
+    position: relative;
+    bottom: 115px;
+   right: 12px;
+    word-break: normal;
+    overflow-wrap: break-word;
+}
+.h82{
+    float: right;
+     position: relative;
+    bottom: 210px;
+    word-break: normal;
+     overflow-wrap: break-word;
+}
+.h83{
+ float: top;
+  position: relative;
+    bottom: 160px;
+     word-break: normal;
+     overflow-wrap: break-word;
+ 
+}
+.h84{
+  float: top;
+  position: relative;
+    bottom: 160px;  
+    
+}
+.submit{
+    float: top;
+    position: relative;
+    bottom: 130px;  
+}
+
+.h81s{
+      text-align:  center; 
+    position: relative;
+    bottom: 115px;
+    right: 15px;
+    word-break: normal;
+    overflow-wrap: break-word;
+}
+
+.h82s{
+    float: right;
+     position: relative;
+    bottom: 210px;
+    right: 28px;
+    word-break: normal;
+     overflow-wrap: break-word;
+
+}
+
+.h82t{
+     float: right;
+     position: relative;
+    bottom: 210px;
+    right: 20px;
+    word-break: normal;
+     overflow-wrap: break-word;
+}
+
+
+.h82y{
+    float: right;
+     position: relative;
+    bottom: 210px;
+    right: 7px;
+    word-break: normal;
+     overflow-wrap: break-word;
+}
+.Div{
+     border:3px solid Yellow;
+     width:900px;
+     height:400px;
+     position: relative;
+     bottom:30px;
+     left:250px;
+    margin-top: 180px;
+ }
+ .Dlogo{
+     width: 300px;
+     height: 220px;
+     position: relative;
+     right:260px;
+     top:10px;
+     border: 2px solid gold;
+ }
+ .DL {
+     color:white;
+     text-align: center;
+      position: relative;
+      font-size: 300%;
+     bottom:220px;
+     left: 150px;
+    
+ }
+.add{     
+    color:white;
+    font-size: 150%;
+    position: relative;
+     bottom:50px;
+     right:260px;
+}
+.cd {
+     color:white;
+     text-align: center;
+     position: relative;
+     bottom:350px;
+     left: 170px;
+    
+ }

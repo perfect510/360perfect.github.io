@@ -1,0 +1,309 @@
+<!doctype html>
+
+
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>360</title>
+    <meta name="description" content=" ">
+    <meta property="og:title" content="dark-mode-switch">
+    <meta property="og:description" content=" ">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/theme-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/jpeg" href="images1/icon.png">
+</head>
+
+
+
+<body class="bg-darkmode-dark  d-flex h-100">
+    <div class="social-icons">
+        <div class="btn-group-vertical">
+            <button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="left" title="Share on Facebook">
+            <i class="fa fa-facebook"></i>
+          </button>
+            <button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="left" title="Share on Twitter">
+        <i class="fa fa-twitter"> </i>
+          </button>
+            <button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="left" title="Shhare on Linkedin">
+              <i class="fa fa-linkedin"> </i>
+          </button>
+            <button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="left" title="Share on Email">
+            <i class="fa fa-envelope"></i>
+          </button>
+        </div>
+    </div>
+
+
+    <div class="container d-flex p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <h3 class="float-left"><a class="a-logo" href="index.html"> Hyundai Elantra </a>
+
+
+                <span class="custom-control custom-switch float-right   mt-1  ">
+         
+        <input type="checkbox" name="checkbox" class="switch" id="darkSwitch" checked="checked">
+        <label class="custom-control-label " for="darkSwitch" style="visibility: hidden;"> </label>
+    </span></h3>
+
+
+          <nav class="nav justify-content-center float-right">
+              <a href="Exterior.html" class="btn jj  btn-outline-light active mr-3 login-btn-click">Home</a>
+              <a href="color.html" class="btn jj  btn-outline-light active mr-3 login-btn-click">Color</a>
+              <a href="view.html" class="btn jj  btn-dark signup-btn-click ">360 View</a>
+              <a href="bonnet.html" class="btn jj  btn-outline-light active mr-3 login-btn-click">Bonnet</a>
+              <a href="trunk.html" class="btn jj  btn-outline-light active mr-3 login-btn-click">Trunk</a>
+              <a href="main1.html" class="btn jj btn-outline-light active mr-3 login-btn-click">Back</a>
+              <!-- <a href="login.html" class="btn btn-dark signup-btn-click"></a> -->
+              <!-- <div class="nav-link"></div> -->
+          </nav>
+      </header>
+
+
+        
+
+        <div class="tools-box ">
+
+
+            <div class="row">
+                
+                <div class="col-lg-12">
+                    <div class="test-click">
+
+                        <h3> Hyundai Elantra</h3>
+                        <center>
+                          <iframe class="example" src="360.html" height="450" width="1000" title="Iframe Example"></iframe>
+                        </center>
+
+                    </div>
+                </div>
+            </div>
+          </div>
+
+
+
+        <!-- The Modal -->
+       
+        <footer class="mt-auto  pt-5">
+
+          
+        </footer>
+
+    </div>
+    <!-- The scroll to top feature -->
+
+    <div class="scroll-top-wrapper ">
+        <span class="scroll-top-inner">
+      <i class="fa fa-2x fa-arrow-circle-up"></i>
+    </span>
+    </div>
+    <!--script-->
+
+    <script src="js/dark-mode-switch.min.js"></script>
+    <script src="js/jquery.marquee.js"></script>
+    <script src="js/marquee.jquery.json"></script>
+    <script>
+        $(document).ready(function() {
+            $("#login-box-tab a").click(function() {
+                $(this).tab('show');
+            });
+
+            $(".login-btn-click").click(function() {
+                $("#login-tab").tab('show');
+            });
+
+            $(".signup-btn-click").click(function() {
+                $("#signup-tab").tab('show');
+            });
+            $('[data-toggle="tooltip"]').tooltip();
+            $(function() {
+
+                $(".material-ripple").mousedown(function(e) {
+                    var ink = new Ink($(this), e);
+                });
+
+                function Ink(parent, e) {
+
+                    this.el = $("<span>", {
+                        class: "material-ink"
+                    });
+
+                    parent.prepend(this.el);
+
+                    d = Math.max(parent.outerWidth(), parent.outerHeight());
+                    this.el.css({
+                        height: d,
+                        width: d
+                    });
+
+                    x = e.pageX - parent.offset().left - d / 2;
+                    y = e.pageY - parent.offset().top - d / 2;
+
+                    this.el
+                        .css({
+                            top: y + "px",
+                            left: x + "px"
+                        })
+                        .addClass("material-ink-animate");
+
+                    this.destroy(500);
+
+                }
+
+                Ink.prototype.destroy = function(time) {
+
+                    var that = this; // Gotta love this (pun intended)
+
+                    setTimeout(function() {
+                        that.el.remove();
+                        that = undefined;
+                    }, time);
+                };
+
+            });
+
+
+
+
+
+
+            //Set timeout
+
+
+            $(".material-ripple").click(function() {
+                setTimeout(function() {
+                    $('#myModal').modal('show');
+                }, 3000);
+
+            });
+
+
+            $(document).ready(function() {
+
+                $(function() {
+
+                    $(document).on('scroll', function() {
+
+                        if ($(window).scrollTop() > 100) {
+                            $('.scroll-top-wrapper').addClass('show');
+                        } else {
+                            $('.scroll-top-wrapper').removeClass('show');
+                        }
+                    });
+
+                    $('.scroll-top-wrapper').on('click', scrollToTop);
+                });
+
+                function scrollToTop() {
+                    verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+                    element = $('body');
+                    offset = element.offset();
+                    offsetTop = offset.top;
+                    $('html, body').animate({
+                        scrollTop: offsetTop
+                    }, 500, 'linear');
+                }
+
+            });
+
+
+            $(function() {
+
+                $('.marquee').marquee({
+
+
+
+                    // Set to false if you want to use jQuery animate method
+
+                    allowCss3Support: true,
+
+
+
+                    // CSS3 easing function
+                    css3easing: 'linear',
+
+
+
+                    // Requires jQuery easing plugin.
+
+                    easing: 'linear',
+
+
+
+                    // Time to wait before starting the animation
+
+                    delayBeforeStart: 800,
+
+
+                    // 'left', 'right', 'up' or 'down'
+
+                    direction: 'left',
+
+
+
+                    // Should the marquee be duplicated to show an effect of continues flow
+
+                    duplicated: false,
+
+
+
+                    // Duration of the animation
+
+                    duration: 9000,
+                    // Space in pixels between the tickers
+
+                    gap: 10,
+
+                    pauseOnCycle: false,
+
+                    // Pause on hover
+
+                    pauseOnHover: false,
+
+
+
+                    // The marquee is visible initially positioned next to the border towards it will be moving
+
+                    startVisible: false
+
+
+                });
+
+            });
+
+        });
+    </script>
+
+    <style type="text/css">
+     
+.example {
+  border: 0px dotted black;
+  overflow-y: scroll; /* Add the ability to scroll */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+iframe{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+</style>
+    
+</body>
+
+</html>
